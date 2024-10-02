@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const missionNasa = () => {
   const navigate = useNavigate();
   const handleBack = () => {
-    navigate('/learn-page');
+    navigate('/home-screen');
   };
   const missions = [
     { title: 'Europa Clipper Mission', image: '/EuropaClipper.png' },
@@ -16,7 +16,7 @@ const missionNasa = () => {
     { title: 'SUBSEA Mission', image: '/subsea.jpg' },
   ];
 
-  
+
   const robotoFont = {
     fontFamily: "'Roboto', sans-serif",
     fontWeight: 900,
@@ -25,8 +25,8 @@ const missionNasa = () => {
   return (
     <div className="relative bg-cover bg-center h-screen overflow-hidden pt-20" style={{ backgroundImage: 'url(/home.jpg)' }}>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
-      
-     <Back onClick={handleBack}/>
+
+      <Back onClick={handleBack} />
       <div className="grid grid-cols-3 gap-4 p-8">
         {missions.map((mission, index) => (
           <div key={index} className="relative rounded-lg overflow-hidden shadow-lg bg-white">
