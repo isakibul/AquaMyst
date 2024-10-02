@@ -45,14 +45,18 @@ const Map = () => {
       </button>
 
       <button
-        onClick={() => handleButtonClick(4)}
+        onClick={() => {
+          navigate(`/level-four-intro`);
+        }}
         className="absolute top-[500px] left-[] transform -translate-x-1/2 -translate-y-1/2"
       >
         <img src="/L4.png" alt="Point 4" className="w-10 h-10" />
       </button>
 
       <button
-        onClick={() => handleButtonClick(5)}
+      onClick={() => {
+        navigate(`/level-five-intro`);
+      }}
         className="absolute top-[148px] right-[340px] transform -translate-x-1/2 -translate-y-1/2"
       >
         <img src="/L5.png" alt="Point 5" className="w-10 h-10" />

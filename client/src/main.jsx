@@ -34,7 +34,18 @@ import LevelThreeIntro from "./pages/levelThree/LevelThreeIntro";
 import LevelThreeSecond from "./pages/levelThree/LevelThreeSecond";
 import LevelThreeThird from "./pages/levelThree/LevelThreeThird";
 import LevelThreeFourth from "./pages/levelThree/LevelThreeFourth";
-
+// level four
+import LevelFourIntro from "./pages/levelFour/LevelFourIntro";
+import LevelFourSecond from "./pages/levelFour/LevelFourSecond";
+import LevelFourThird from "./pages/levelFour/LevelFourThird";
+import LevelFourFourth from "./pages/levelFour/LevelFourFourth";
+// level five
+import LevelFiveIntro from "./pages/levelFive/LevelFiveIntro";
+import LevelFiveSecond from "./pages/levelFive/LevelFiveSecond";
+import LevelFiveThird from "./pages/levelFive/LevelFiveThird";
+import LevelFiveFourth from "./pages/levelFive/LevelFiveFourth";
+import LevelFiveFifth from "./pages/levelFive/LevelFiveFifth";
+import LevelFiveSixth from "./pages/levelFive/LevelFiveSixth"
 const router = createBrowserRouter([
   {
     path: "/",
@@ -154,7 +165,49 @@ const router = createBrowserRouter([
   {
     path: "/level-three-fourth",
     element: <LevelThreeFourth />
-  }
+  },
+  // Level four
+  {
+    path: "/level-four-intro",
+    element: <LevelFourIntro />
+  },
+  {
+    path: "/level-four-second",
+    element: <LevelFourSecond />
+  },
+  {
+    path: "/level-four-third",
+    element: <LevelFourThird />
+  },
+  {
+    path: "/level-four-fourth",
+    element: <LevelFourFourth />
+  },
+  //  level-five
+  {
+    path:'/level-five-intro',
+    element:<LevelFiveIntro />
+},
+{
+  path:'/level-five-second',
+    element:<LevelFiveSecond />
+},
+{
+  path:'/level-five-third',
+    element:<LevelFiveThird />
+},
+{
+  path:'/level-five-fourth',
+    element:<LevelFiveFourth />
+},{
+  path:'/level-five-fifth',
+    element:<LevelFiveFifth />
+},
+{
+  path:'/level-five-sixth',
+    element:<LevelFiveSixth />
+ }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
