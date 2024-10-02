@@ -6,39 +6,42 @@ import Back from '../button/Back';
 const Map = () => {
   const navigate = useNavigate();
 
-  const handleButtonClick = (point) => {
-    navigate(`/destination/${point}`);
-  };
   const handleBack = () => {
     navigate('/home-screen');
   };
-  
-  return (
-   
-    <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-black">
-    <img src={mapImage} alt="Map" className="w-full h-auto" /> 
-    <Back onClick={handleBack} />
 
-    <img src={line} alt="Overlay Line" className="absolute h-auto w-3/4" />
-    <button
-        onClick={() => handleButtonClick(1)}
+  return (
+
+    <div className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-black">
+      <img src={mapImage} alt="Map" className="w-full h-auto" />
+      <Back onClick={handleBack} />
+
+      <img src={line} alt="Overlay Line" className="absolute h-auto w-3/4" />
+      <button
+        onClick={() => {
+          navigate(`/level-one-intro`);
+        }}
         className="absolute top-[450px] left-[378px] transform -translate-x-1/2 -translate-y-1/2"
       >
         <img src="/L1.png" alt="Point 1" className="w-10 h-10" />
       </button>
 
       <button
-        onClick={() => handleButtonClick(2)}
-        className="absolute top-1/3 left-[520px]  transform -translate-x-1/2 -translate-y-1/2"
-      >
-        <img src="/L3.png" alt="Point 2" className="w-10 h-10 " />
-      </button>
-
-      <button
-        onClick={() => handleButtonClick(3)}
+        onClick={() => {
+          navigate(`/level-two-intro`);
+        }}
         className="absolute top-[200px] left-[170px]  transform -translate-x-1/2 -translate-y-1/2"
       >
         <img src="/L2.png" alt="Point 3" className="w-10 h-10" />
+      </button>
+
+      <button
+        onClick={() => {
+          navigate(`/level-three-intro`);
+        }}
+        className="absolute top-1/3 left-[520px]  transform -translate-x-1/2 -translate-y-1/2"
+      >
+        <img src="/L3.png" alt="Point 2" className="w-10 h-10 " />
       </button>
 
       <button
@@ -54,10 +57,10 @@ const Map = () => {
       >
         <img src="/L5.png" alt="Point 5" className="w-10 h-10" />
       </button>
-      
-  </div>
-     
-    
+
+    </div>
+
+
   );
 };
 

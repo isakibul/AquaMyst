@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-text{
+  background: linear-gradient(to top, #1B85E0, #1AE8F5, #FDFFF0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.levelOne{
+  background: linear-gradient(to bottom, #1B85E0, #10a4ad, #48e7f0);
+  margin-top: -90px;
+}
 
 body {
   font-family: "Bowlby One";

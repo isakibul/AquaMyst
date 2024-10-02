@@ -15,49 +15,49 @@ const CharacterExplainEight = () => {
   };
 
   return (
-  
-    <div
-    className="relative w-full h-screen overflow-hidden bg-cover bg-center flex flex-col items-center justify-center"
-    style={{
-      backgroundImage: 'url("/home.jpg")',
-    }}
-  >
-    
-    <Back onClick={handleBack} />
 
-    <div className="flex items-center justify-between  mt-12">
-      
-      <div
-        className="relative bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
-        style={{
-          boxShadow: '15px 14px 4px 0px #DFDEDE91',
-        }}
-      >
-        <p
-          className="font-normal text-4xl"
+    <div
+      className="relative w-full h-screen overflow-hidden bg-cover bg-center flex flex-col items-center justify-center"
+      style={{
+        backgroundImage: 'url("/home.jpg")',
+      }}
+    >
+
+      <Back onClick={handleBack} />
+
+      <div className="flex items-center justify-between  mt-12">
+
+        <div
+          className="relative bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
           style={{
-            fontFamily: 'Alike Angular',
+            boxShadow: '15px 14px 4px 0px #DFDEDE91',
           }}
         >
-         So, we're not just going on an adventure, we're learning how life could exist on other planets!
-        </p>
+          <p
+            className="font-normal text-4xl"
+            style={{
+              fontFamily: 'Alike Angular',
+            }}
+          >
+            So, we're not just going on an adventure, we're learning how life could exist on other planets!
+          </p>
+        </div>
+
+        <div className="relative">
+          <img
+            src="/girl.png"
+            alt="Character"
+            className="w-80 h-auto -mb-40"
+            style={{
+              objectFit: 'contain',
+            }}
+          />
+        </div>
       </div>
 
-      <div className="relative">
-        <img
-          src="/girl.png"
-          alt="Character"
-          className="w-80 h-auto -mb-40"
-          style={{
-            objectFit: 'contain', 
-          }}
-        />
-      </div>
+
+      <Next onClick={handleNext} />
     </div>
-
-    
-    <Next onClick={handleNext} />
-  </div>
   );
 };
 

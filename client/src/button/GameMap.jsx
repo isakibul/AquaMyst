@@ -8,7 +8,7 @@ function GameMap({ onClick }) {
       style={{
         background: 'linear-gradient(180deg, #FF8C00 0%, #FF4500 100%)',
         boxShadow: '5px 5px 15px rgba(0, 0, 0, 0.3)',
-        fontFamily: '"Anton", sans-serif', // Applying the Anton font
+        fontFamily: '"Anton", sans-serif',
       }}
     >
       GAME MAP

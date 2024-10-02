@@ -6,7 +6,7 @@ const Learn = () => {
   const navigate = useNavigate();
 
   const handleBack = () => {
-    navigate('/game-map');
+    navigate('/home-screen');
   };
 
 
