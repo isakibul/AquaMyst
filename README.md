@@ -65,7 +65,7 @@ In this level, you will uncover the delicate balance that keeps this mysterious 
 In this final level, you'll design an oceanic haven, customize habitats, and ensure your ecosystem stays balanced. Here you will dive into your imagination and build something amazing! Here you will explore ocean world with Europa Clipper.
 
 
-#Educational Goals 🎓🌍
+# Educational Goals 🎓🌍
 1. Foster a deep understanding of bioluminescence and the unique adaptations of deep-sea creatures.
 2. Empower students to comprehend chemosynthesis as an alternative to photosynthesis.
 3. Enhance critical thinking skills by allowing students to study the survival strategies of deep-sea creatures.
