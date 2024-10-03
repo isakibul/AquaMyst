@@ -20,13 +20,13 @@ const StoryTwo = () => {
         backgroundImage: 'url("/home.jpg")',
       }}
     >
-      
-      
+
+
       <Back onClick={handleBack} />
       <div className="flex items-center justify-between  mt-12">
-        
+
         <div
-          className="relative bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
+          className="-mr-[150px] -mt-[150px] bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
           style={{
             boxShadow: '15px 14px 4px 0px #DFDEDE91',
           }}
@@ -45,15 +45,15 @@ const StoryTwo = () => {
           <img
             src="/girl.png"
             alt="Character"
-            className="w-80 h-auto -mb-40"
+            className="w-[600px] -mb-[250px] mr-[60px]"
             style={{
-              objectFit: 'contain', 
+              objectFit: 'contain',
             }}
           />
         </div>
       </div>
 
-      
+
       <Next onClick={handleNext} />
     </div>
   );
