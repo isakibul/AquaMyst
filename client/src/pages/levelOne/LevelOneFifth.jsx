@@ -27,7 +27,7 @@ const LevelOneFifth = () => {
                     fontFamily: 'Agbalumo',
                 }}
                 onClick={() => {
-                    navigate('/game-map')
+                    navigate('/level-two-intro')
                 }}
             >
                 Complete
