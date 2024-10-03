@@ -17,6 +17,7 @@ const LevelOneIntro = () => {
         >
             <Back onClick={handleBack} />
 
+
             <div className="flex flex-col items-center justify-center h-full space-y-4">
                 <div className="w-[850px] h-[260px] bg-white shadow-lg flex justify-center items-center text-center rounded-3xl mb-6">
 

@@ -183,30 +183,31 @@ const router = createBrowserRouter([
     path: "/level-four-fourth",
     element: <LevelFourFourth />
   },
-  //  level-five
+
+  // level-five
   {
-    path:'/level-five-intro',
-    element:<LevelFiveIntro />
-},
-{
-  path:'/level-five-second',
-    element:<LevelFiveSecond />
-},
-{
-  path:'/level-five-third',
-    element:<LevelFiveThird />
-},
-{
-  path:'/level-five-fourth',
-    element:<LevelFiveFourth />
-},{
-  path:'/level-five-fifth',
-    element:<LevelFiveFifth />
-},
-{
-  path:'/level-five-sixth',
-    element:<LevelFiveSixth />
- }
+    path: '/level-five-intro',
+    element: <LevelFiveIntro />
+  },
+  {
+    path: '/level-five-second',
+    element: <LevelFiveSecond />
+  },
+  {
+    path: '/level-five-third',
+    element: <LevelFiveThird />
+  },
+  {
+    path: '/level-five-fourth',
+    element: <LevelFiveFourth />
+  }, {
+    path: '/level-five-fifth',
+    element: <LevelFiveFifth />
+  },
+  {
+    path: '/level-five-sixth',
+    element: <LevelFiveSixth />
+  }
 
 ]);
 

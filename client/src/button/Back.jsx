@@ -15,6 +15,6 @@ function Back({ onClick }) {
   )
 }
 
-export default Back
+export default Back;
 
 
