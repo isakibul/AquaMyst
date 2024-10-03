@@ -33,7 +33,7 @@ const StorySix = () => {
           }}
         >
           <p
-            className="font-normal text-4xl"
+            className="font-normal text-3xl"
             style={{
               fontFamily: 'Alike Angular',
             }}

@@ -26,17 +26,18 @@ const LevelOneThird = () => {
             <div className="flex items-center justify-between  mt-12">
 
                 <div
-                    className="relative mb-[240px] -mr-[50px] bg-white text-black py-10 px-14 rounded-xl shadow-lg max-w-3xl"
+                    className="-mr-[150px] -mt-[150px] bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
                     style={{
                         boxShadow: '15px 14px 4px 0px #DFDEDE91',
                     }}
                 >
                     <p
-                        className="font-normal text-4xl"
+                        className="font-normal text-3xl"
                         style={{
                             fontFamily: 'Alike Angular',
                         }}
                     >
+
                         How do living organisms produce <br /> light?
                     </p>
                 </div>
@@ -45,15 +46,13 @@ const LevelOneThird = () => {
                     <img
                         src="/girl.png"
                         alt="Character"
-                        className="w-[700px] h-auto -mb-60"
+                        className="w-[600px] -mb-[250px] mr-[60px]"
                         style={{
                             objectFit: 'contain',
-                            marginLeft: '-74px'
                         }}
                     />
                 </div>
             </div>
-
             <Next onClick={handleNext} />
         </div>
     );

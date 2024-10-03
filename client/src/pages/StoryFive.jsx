@@ -20,12 +20,12 @@ const CharacterExplainFive = () => {
         backgroundImage: 'url("/home.jpg")',
       }}
     >
-     <Back onClick={handleBack} />
+      <Back onClick={handleBack} />
 
       <div className="flex items-center space-x-8">
         <div className="flex-shrink-0">
           <img
-            src="/grandpa.png" 
+            src="/grandpa.png"
             alt="Character"
             className="w-72 -mb-80"
           />
@@ -36,13 +36,13 @@ const CharacterExplainFive = () => {
             boxShadow: '15px 14px 4px 0px #DFDEDE91',
           }}>
           <p
-            className="font-normal text-4xl"
+            className="font-normal text-3xl"
             style={{
               fontFamily: 'Alike Angular',
-              
+
             }}
           >
-           It sounds strange, but those vents release heat and minerals from deep inside the planet, creating an ecosystem in the dark. Bacteria around the vents turn those chemicals into energy, and that supports all sorts of life forms.
+            It sounds strange, but those vents release heat and minerals from deep inside the planet, creating an ecosystem in the dark. Bacteria around the vents turn those chemicals into energy, and that supports all sorts of life forms.
           </p>
         </div>
       </div>

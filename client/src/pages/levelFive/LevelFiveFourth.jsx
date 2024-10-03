@@ -23,11 +23,11 @@ const LevelFiveFourth = () => {
     >
       <Back onClick={handleBack} />
 
-      <div className="flex flex-col items-center space-x-8 mt-[45px]">
+      <div className="flex flex-col items-center space-x-8 mt-[80px]">
         <div
-          className='font-anton text-3xl text-white bg-slate-300 py-2 px-6 border-2 border-white levelOne'
+          className='font-anton  text-3xl text-white bg-slate-300 py-2 px-6 border-2 border-white levelOne'
         >Europa Clipper AR</div>
-        <img className='mt-5 h-[400px] w-auto rounded-3xl border-[5px] border-white-200' src="/level-five/europa.png" alt="" />
+        <img className='mt-5 h-[350px] w-auto rounded-3xl border-[5px] border-white-200' src="/level-five/europa.png" alt="" />
       </div>
       <button
         className='font-anton mt-5 bg-slate-400 py-3 px-7 text-white rounded-lg border-4 border-white tracking-widest'

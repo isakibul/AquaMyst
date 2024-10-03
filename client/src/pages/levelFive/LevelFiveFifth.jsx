@@ -23,11 +23,19 @@ const LevelFiveFourth = () => {
     >
       <Back onClick={handleBack} />
 
-      <div className="flex flex-col items-center space-x-8 -mt-[35px]">
+      <div className="flex flex-col items-center space-x-8 mt-[70px]">
         <div
           className='ms-5 font-anton text-3xl text-white bg-slate-300 py-2 px-6 border-2 border-white levelOne'
         >Explore Ocean World with Europa Clipper</div>
-        <img className='mt-5 h-[400px] w-auto rounded-3xl border-[5px] border-white-200' src="/level-five/new.png" alt="" />
+        
+        {/* Embedding video from Google Drive */}
+        <iframe
+          className='mt-5 h-[400px] w-[600px] rounded-3xl border-[5px] border-white-200'
+          src="https://drive.google.com/file/d/1rBT33i-Eo-WuVme7UZNBpEf8V7nDACEC/preview"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+          title="Europa Clipper Video"
+        ></iframe>
       </div>
       <Next onClick={handleNext} />
     </div>

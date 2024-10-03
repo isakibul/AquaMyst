@@ -37,7 +37,7 @@ const CoverScreen = () => {
         {showButton ? (
           <button
             onClick={handleButtonClick}
-            className={`px-8 py-4 text-white font-bold text-2xl border border-white rounded-xl shadow-lg transition-all duration-700 transform ${slideIn ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            className={`px-6 py-4 text-white font-bold text-2xl border border-white rounded-xl shadow-lg transition-all duration-700 transform ${slideIn ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
             style={{
               background:
@@ -48,7 +48,7 @@ const CoverScreen = () => {
             START
           </button>
         ) : (
-          <div className="px-8 py-4 text-transparent">START</div>
+          <div className="px-6 py-4 text-transparent">START</div>
         )}
       </div>
     </div>

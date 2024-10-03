@@ -27,7 +27,7 @@ const LevelFourSecond = () => {
                 <div
                     className='font-anton text-3xl text-white bg-slate-300 py-2 px-6 border-2 border-white levelOne'
                 >The Food Web of the Deep Sea</div>
-                <img className='mt-5 h-[400px] w-auto rounded-3xl border-[5px] border-white-200' src="/level-four/cover.png" alt="" />
+                <img className='mt-5 h-[390px] w-[830px] rounded-3xl border-[5px] border-white-200' src="/level-four/cover.png" alt="" />
             </div>
 
           <Next onClick={handleNext} />

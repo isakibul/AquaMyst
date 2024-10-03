@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../../index.css';
 import Back from '../../button/Back';
+import Next from '../../button/Next';
 const LevelTwoFourth = () => {
     const navigate = useNavigate();
 
@@ -28,18 +29,7 @@ const LevelTwoFourth = () => {
                 <img className='mt-5 h-[400px] w-auto rounded-3xl border-[5px] border-white-200' src="/level-two/hydrothemal.png" alt="" />
             </div>
 
-            <div className="flex mt-[20px]">
-                <button
-                    className="bg-blue-500 text-white py-[10px] px-[50px] text-4xl rounded-xl border-2 border-white shadow-lg"
-                    style={{
-                        background: 'linear-gradient(180deg, #1AE8F5 0%, #1B85E0 25%, #1C18C9 52.47%, #2918E7 92.19%)',
-                        fontFamily: 'Agbalumo',
-                    }}
-                    onClick={handleNext}
-                >
-                    NEXT
-                </button>
-            </div>
+            <Next onClick={handleNext}/>
         </div>
     );
 };

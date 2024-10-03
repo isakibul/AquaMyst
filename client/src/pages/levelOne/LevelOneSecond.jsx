@@ -22,14 +22,14 @@ const LevelOneSecond = () => {
         >
             <Back onClick={handleBack} />
 
-            <div className="flex flex-col items-center space-x-8">
+            <div className="flex flex-col items-center space-x-8 mt-10">
                 <div
                     className='font-anton text-3xl text-white bg-slate-300 py-2 px-6 border-2 border-white levelOne'
                 >LEVEL 1</div>
-                <img className='mt-[35px] h-[400px] w-[900px] rounded-3xl border-[5px] border-white-200' src="/level-one-cover.jpg" alt="" />
+                <img className='mt-[20px] h-[320px] w-[880px] rounded-3xl border-[5px] border-white-200' src="/level-one-cover.jpg" alt="" />
             </div>
 
-            <Next onClick={handleNext} />
+           <Next onClick={handleNext} />
         </div>
     );
 };

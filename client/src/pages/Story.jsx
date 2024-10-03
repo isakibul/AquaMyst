@@ -38,7 +38,7 @@ const Story1 = () => {
             boxShadow: '15px 14px 4px 0px #DFDEDE91', 
           }}>
           <p
-            className="font-normal text-4xl"
+            className="font-normal text-3xl"
             style={{
               fontFamily: 'Alike Angular',
               

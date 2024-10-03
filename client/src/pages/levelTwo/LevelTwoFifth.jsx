@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import '../../index.css';
 import Back from '../../button/Back';
+import Complete from '../../button/Complete';
 const LevelTwoFifth = () => {
     const navigate = useNavigate();
 
@@ -23,20 +24,9 @@ const LevelTwoFifth = () => {
                 </div>
             </div>
 
-            <div className="flex mt-[20px]">
-                <button
-                    className="bg-blue-500 text-white py-[10px] px-[50px] text-4xl rounded-xl border-2 border-white shadow-lg"
-                    style={{
-                        background: 'linear-gradient(180deg, #1AE8F5 0%, #1B85E0 25%, #1C18C9 52.47%, #2918E7 92.19%)',
-                        fontFamily: 'Agbalumo',
-                    }}
-                    onClick={() => {
+          <Complete  onClick={() => {
                         navigate("/level-three-intro")
-                    }}
-                >
-                    Complete
-                </button>
-            </div>
+                    }}/>
         </div>
     );
 };

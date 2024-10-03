@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useNavigate } from 'react-router-dom';
 import '../../index.css';
 import Next from '../../button/Next';
@@ -15,29 +16,31 @@ const LevelFiveThird = () => {
   };
 
   return (
+
     <div
       className="relative w-full h-screen overflow-hidden bg-cover bg-center flex flex-col items-center justify-center"
       style={{
         backgroundImage: 'url("/home.jpg")',
       }}
     >
-
+      {/* Back Button */}
       <Back onClick={handleBack} />
 
-      <div className="flex items-center justify-between  mt-12">
+      <div className="flex items-center justify-items-center  mt-12">
 
         <div
-          className="relative mb-[240px] -mr-[65px] bg-white text-black py-10 px-14 rounded-xl shadow-lg max-w-2xl mt-[200px]"
+          className="ml-[150px] -mt-[100px] bg-white text-black p-6 rounded-xl shadow-lg max-w-xl"
           style={{
             boxShadow: '15px 14px 4px 0px #DFDEDE91',
           }}
         >
           <p
-            className="font-normal text-3xl"
+            className="font-normal text-2xl "
             style={{
-              fontFamily: 'Alike Angular',
+              fontFamily: 'roboto',
             }}
           >
+
             Wow, Grandpa! I can't believe we’ve made it this far. I’ve learned so much, and this is it—the final step on this planet! But I feel like it's just the beginning. Let's go find a whole new world, even more mysterious than this one. Who knows what incredible life forms are waiting for us out there? I'm ready for the next adventure!
           </p>
         </div>
@@ -46,15 +49,13 @@ const LevelFiveThird = () => {
           <img
             src="/girl.png"
             alt="Character"
-            className="w-[700px] h-auto -mb-60"
+            className="w-[430px] -mb-[50px] mr-[160px]"
             style={{
               objectFit: 'contain',
-              marginLeft: '-74px'
             }}
           />
         </div>
       </div>
-
       <Next onClick={handleNext} />
     </div>
   );

@@ -36,6 +36,7 @@ const CharacterSelect = () => {
       alt="Character 1"
       className="w-52 h-auto object-contain"
     />
+    <p className="adlam-display-regular text-3xl text-center">Male</p>
   </div>
 
   <div
@@ -47,6 +48,7 @@ const CharacterSelect = () => {
       alt="Character 2"
       className="w-52 h-auto object-contain"
     />
+    <p className="adlam-display-regular text-3xl text-center">Female</p>
   </div>
 </div>
 

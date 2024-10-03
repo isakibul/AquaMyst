@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom';
 import '../../src/index.css';
-import Next from '../button/Next';
 import Back from '../button/Back';
 import Explore from '../button/Explore';
 const CharacterExplainNine = () => {
@@ -40,7 +39,7 @@ const CharacterExplainNine = () => {
           }}
         >
           <p
-            className="font-normal text-4xl"
+            className="font-normal text-3xl"
             style={{
               fontFamily: 'Alike Angular',
             }}
