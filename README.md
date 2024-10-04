@@ -1,3 +1,8 @@
+# Figma Prototype 🎨
+https://www.figma.com/proto/5OEKfTDWRgAhuiEiDONlAX/AquaMyst?node-id=17-14&node-type=canvas&t=xG5Ss7zCY0MXXPbb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3
+
+---
+
 # AquaMyst 🌊✨
 ## Team AstroSpark presents AquaMyst - Embark on a journey to explore life powered by chemosynthesis instead of photosynthesis.
 
